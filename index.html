@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill-Link</title>
+    <link rel="icon" href="IMG/Logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="IMG/Logo.png" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav ms-auto my-2 my-lg-0 text-center navbar-nav-scroll"
+            style="--bs-scroll-height: 120px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jobs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Employers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div
+            class="d-flex ms-auto gap-3 justify-content-center"
+            role="search"
+          >
+            <button class="btn btn-outline-success" type="submit">
+              Log In
+            </button>
+            <button class="btn btn-outline-success" type="submit">
+              + Post a Job
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <!-- Hero Section -->
+    <section class="Hero-section d-md-flex gap-3 p-3 p-md-5 align-items-center">
+      <div class="Hero-Left">
+        <div class="d-flex flex-column gap-3">
+          <b>Bridging Talents to Opportunities</b>
+          <h1>Got Talent? We’ve Got Opportunities!</h1>
+          Explore thousands of jobs and opportunities across various industries.
+          Connect with employers who value your skills, or find the right talent
+          to grow your business
+        </div>
+        <div class="d-flex flex-wrap gap-3">
+          <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <div class="location-section">
+              <img
+                width="30"
+                height="30"
+                src="https://img.icons8.com/material-sharp/50/50c878/marker.png"
+                alt="marker"
+              />
+
+              <input
+                type="text"
+                placeholder="Enter Location"
+                class="location-input"
+                list="countries"
+              />
+              <datalist id="countries">
+                <option value="United States">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="India">India</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Italy">Italy</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Russia">Russia</option>
+                <option value="Spain">Spain</option>
+              </datalist>
+            </div>
+            <img
+              width="24"
+              height="24"
+              src="https://img.icons8.com/forma-bold/24/50c878/search.png"
+              alt="search"
+            />
+            <input
+              type="text"
+              placeholder="Search here..."
+              class="search-input"
+            />
+            <button class="search-button">Search</button>
+          </div>
+          <div class="Popular-Search">
+            <h4>Popular Searches</h4>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="nav-link" href="#">Software Engineer</a>
+              <a class="nav-link" href="#">Data Analyst</a>
+              <a class="nav-link" href="#">Product Manager</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Hero-Right d-flex justify-content-center align-items-center">
+        <img src="IMG/Hero-image.png" alt="Hero-Image" class="img-fluid" />
+      </div>
+    </section>
+    <!-- Hero Section -->
+    <!-- Jobs Section -->
+    <section class="Jobs-section py-5">
+      <div class="section d-md-flex justify-content-center gap-3 p-3">
+        <div class="Employer">
+          <div class="employer-left">
+            <h3>For Employers</h3>
+            <p>Find Professional all around the world and across all skills</p>
+            <button class="search-button">Post a Job for free</button>
+          </div>
+          <div class="employer-right">
+            <img src="IMG/Employer-removebg-preview.png" alt="" />
+          </div>
+        </div>
+        <div class="job-seeker">
+          <div class="job-left">
+            <h3>For Candidate</h3>
+            <p>Build your professional Profile,Find new Job opportunity</p>
+            <button class="search-button">Upload Your CV</button>
+          </div>
+          <div class="job-right">
+            <img src="IMG/Job_Seeker-removebg-preview.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- Popular Searches -->
+      <div id="Search" class="p-4">
+        <div class="search"></div>
+      </div>
+      <div id="Service">
+        <div class="text-center">
+          <h1 class="mb-3">Explore Popular Categories</h1>
+          <b>Flexible opportunities for every skill set.</b>
+        </div>
+        <div class="navigation mt-4 mt-md-3">
+          <button id="prev-btn">
+            <span class="d-xl-none">Prev</span
+            ><span class="d-none d-xl-block"><</span>
+          </button>
+          <button id="next-btn">
+            <span class="d-xl-none">Next</span
+            ><span class="d-none d-xl-block">></span>
+          </button>
+        </div>
+
+        <div class="container TL">
+          <div class="card">
+            <img
+              width="128"
+              height="128"
+              src="https://img.icons8.com/pastel-glyph/128/50c878/briefcase--v4.png"
+              alt="briefcase--v4"
+            />
+            <h3>Jobs</h3>
+            <p>IT, Healthcare, Marketing and many More...</p>
+          </div>
+          <div class="card">
+            <img
+              width="80"
+              height="80"
+              src="https://img.icons8.com/dotty/80/50c878/education.png"
+              alt="education"
+            />
+            <h3>Scholarships</h3>
+            <p>Global opportunities for students and professionals.</p>
+          </div>
+          <div class="card">
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/ios/50/50c878/technology-items.png"
+              alt="technology-items"
+            />
+            <h3>Freelance Gigs</h3>
+            <p>
+              Find flexible, short-term projects that fit your skills and
+              schedule
+            </p>
+          </div>
+          <div class="card">
+            <img
+              width="100"
+              height="100"
+              src="https://img.icons8.com/carbon-copy/100/50c878/graduation-scroll.png"
+              alt="graduation-scroll"
+            />
+            <h3>Internship Initiatives</h3>
+            <p>
+              Gain real world experiences and jumpstart your carrer in your
+              chosen field
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/ios-filled/50/50c878/combo-chart.png"
+              alt="combo-chart"
+            />
+            <h3>Training Programs</h3>
+
+            <p>
+              Enhancing your skill set with experted courses and certifications
+            </p>
+          </div>
+
+          <div class="card">
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/external-others-pike-picture/50/50c878/external-Volunteer-homecare-others-pike-picture-2.png"
+              alt="external-Volunteer-homecare-others-pike-picture-2"
+            />
+            <h3>Volunteering</h3>
+
+            <p>
+              Make a diffrence by contributing to impactful courses and
+              non-profit organization
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Popular Searches -->
+    </section>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
